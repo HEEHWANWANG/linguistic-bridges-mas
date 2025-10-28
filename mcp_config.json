@@ -1,0 +1,59 @@
+{
+  "mcpServers": {
+    "linguistic-bridges-supervisor": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcp_servers.supervisor_server"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONPATH": "."
+      }
+    },
+    "linguistic-bridges-research": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcp_servers.research_server"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONPATH": "."
+      }
+    },
+    "linguistic-bridges-forge": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcp_servers.forge_server"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONPATH": "."
+      }
+    },
+    "linguistic-bridges-chroniclers": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcp_servers.chroniclers_server"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONPATH": "."
+      }
+    },
+    "linguistic-bridges-version-control": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mcp_servers.version_control_server"
+      ],
+      "cwd": ".",
+      "env": {
+        "PYTHONPATH": "."
+      }
+    }
+  }
+}
