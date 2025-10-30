@@ -46,7 +46,20 @@ outputs/
 !outputs/.gitkeep
 logs/
 !logs/.gitkeep
-.claude/
+# Claude local settings (but track framework config)
+.claude/settings.local.json
+.claude/workspace/
+
+# SuperClaude Framework (shared config - TRACKED)
+!.claude/
+!.claude/CLAUDE.md
+!.claude/PRINCIPLES.md
+!.claude/MODES.md
+!.claude/MCP_CONFIG.md
+!.claude/RULES.md
+!.claude/FLAGS.md
+!.claude/SYMBOLS.md
+
 *.log
 
 # Vector DB
