@@ -37,6 +37,7 @@ The SuperClaude framework components will be automatically imported and applied 
 @MCP_Morphllm.md
 @MCP_Playwright.md
 @MCP_Tavily.md
+@MCP_ARXIV_SCHOLAR.md
 
 ## Advanced Patterns
 @PATTERNS_Parallel_Execution.md
@@ -94,6 +95,12 @@ SuperClaude framework automatically activates for:
 - **Serena**: Semantic code understanding and session persistence
 - **Tavily**: Web search for research phase information gathering
 
+### Academic Research Integrations (DEFAULT FOR LITERATURE SEARCH)
+- **Google Scholar MCP**: Citation analysis, foundational papers, author research
+- **ArXiv MCP**: Latest preprints, technical papers, PDF downloads
+
+**Research Workflow**: Google Scholar (foundation) → ArXiv (latest) → Tavily (practical)
+
 ### Secondary Integrations
 - **Morphllm**: Pattern-based code transformations
 - **Playwright**: E2E testing and validation
@@ -104,14 +111,29 @@ SuperClaude framework automatically activates for:
 mcp_activation:
   research_phase:
     primary: [tavily, sequential]
+    academic_research: [google-scholar, arxiv]  # DEFAULT FOR LITERATURE SEARCH
     secondary: [context7]
+
+    # Academic research workflow
+    academic_workflow:
+      1_foundation: google-scholar    # Foundational papers, citations
+      2_latest: arxiv                 # Recent preprints, technical details
+      3_practical: tavily             # Implementations, tutorials
+      rate_limiting:
+        google_scholar: "10-15s delay between requests"
+        arxiv: "2-3s delay (generous)"
+      max_per_session:
+        google_scholar: 5  # Max searches due to strict rate limits
+        arxiv: unlimited
 
   implementation_phase:
     primary: [serena, sequential]
+    academic_reference: [arxiv]
     secondary: [morphllm]
 
   documentation_phase:
     primary: [serena, context7]
+    academic_reference: [google-scholar, arxiv]
     secondary: [morphllm, playwright]
 
 performance_optimization:
@@ -119,6 +141,12 @@ performance_optimization:
   token_efficiency: aggressive
   caching_enabled: true
   batch_operations: true
+
+academic_research_optimization:
+  google_scholar_rate_limiting: "CRITICAL - 10-15s min delay"
+  arxiv_parallelization: "Safe for rapid searches (2-3s delay)"
+  search_planning: "Always plan searches before execution"
+  caching: "Store results locally (Scholar cache, ArXiv PDFs)"
 ```
 
 ---
