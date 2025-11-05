@@ -1,0 +1,45 @@
+{
+  "total_samples": 100,
+  "total_prompts": 500,
+  "generation_timestamp": "2025-11-05T07:03:36.339575",
+  "evaluation_timestamp": "2025-11-05T07:32:05.336690",
+  "mean_originality": 1.00002,
+  "mean_elaboration": 3.5898,
+  "mean_alignment": 1.59028,
+  "mean_coherence": 2.02704,
+  "mean_overall": 2.0004,
+  "std_originality": 0.00044721359549995833,
+  "std_elaboration": 0.5573929797438567,
+  "std_alignment": 0.30683516296941743,
+  "std_coherence": 0.0948833182818579,
+  "std_overall": 0.18257521029655055,
+  "min_overall": 1.58,
+  "max_overall": 2.52,
+  "convergent_mean": 1.9941,
+  "divergent_mean": 2.00985,
+  "convergent_std": 0.18330537234836455,
+  "divergent_std": 0.18152197840266088,
+  "correlations": {
+    "tempo": {
+      "originality": -0.00816596885431581,
+      "elaboration": -0.089991149523651,
+      "alignment": 0.11313124480659006,
+      "coherence": 0.15155362679286924,
+      "overall": 0.021093157546479117
+    },
+    "tonality": {
+      "originality": 0.0,
+      "elaboration": 0.0,
+      "alignment": 0.0,
+      "coherence": 0.0,
+      "overall": 0.0
+    },
+    "mood": {
+      "originality": 0.0,
+      "elaboration": 0.0,
+      "alignment": 0.0,
+      "coherence": 0.0,
+      "overall": 0.0
+    }
+  }
+}

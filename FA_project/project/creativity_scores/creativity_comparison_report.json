@@ -1,0 +1,29 @@
+{
+  "convergent_vs_divergent": {
+    "convergent_mean": 1.9941,
+    "convergent_std": 0.18330537234836455,
+    "divergent_mean": 2.00985,
+    "divergent_std": 0.18152197840266088,
+    "difference": 0.015750000000000153,
+    "convergent_count": 300,
+    "divergent_count": 200
+  },
+  "by_dimension": {
+    "originality": {
+      "convergent": 1.0000333333333333,
+      "divergent": 1.0
+    },
+    "elaboration": {
+      "convergent": 3.5698,
+      "divergent": 3.6198
+    },
+    "alignment": {
+      "convergent": 1.5861333333333334,
+      "divergent": 1.5965
+    },
+    "coherence": {
+      "convergent": 2.0253,
+      "divergent": 2.02965
+    }
+  }
+}

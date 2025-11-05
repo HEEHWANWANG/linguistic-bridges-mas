@@ -1,0 +1,1810 @@
+{
+  "total_samples": 100,
+  "total_prompts": 500,
+  "convergent_prompts": 300,
+  "divergent_prompts": 200,
+  "generation_timestamp": "2025-11-05T07:03:36.339575",
+  "samples_with_errors": 0,
+  "sample_summary": [
+    {
+      "sample_idx": 0,
+      "features": {
+        "key": "F",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 1,
+      "features": {
+        "key": "D",
+        "tonality": "minor",
+        "tempo": 170.45454545454547,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 2,
+      "features": {
+        "key": "F",
+        "tonality": "major",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, bright, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 3,
+      "features": {
+        "key": "G#",
+        "tonality": "minor",
+        "tempo": 144.23076923076923,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 4,
+      "features": {
+        "key": "D",
+        "tonality": "major",
+        "tempo": 133.92857142857142,
+        "time_signature": "4/4",
+        "mood": "upbeat, bright",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 5,
+      "features": {
+        "key": "F",
+        "tonality": "minor",
+        "tempo": 144.23076923076923,
+        "time_signature": "4/4",
+        "mood": "energetic, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 6,
+      "features": {
+        "key": "A#",
+        "tonality": "minor",
+        "tempo": 81.52173913043478,
+        "time_signature": "4/4",
+        "mood": "moderate, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 7,
+      "features": {
+        "key": "A",
+        "tonality": "minor",
+        "tempo": 110.29411764705883,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 8,
+      "features": {
+        "key": "D#",
+        "tonality": "minor",
+        "tempo": 144.23076923076923,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 9,
+      "features": {
+        "key": "A#",
+        "tonality": "minor",
+        "tempo": 110.29411764705883,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 10,
+      "features": {
+        "key": "F",
+        "tonality": "minor",
+        "tempo": 144.23076923076923,
+        "time_signature": "4/4",
+        "mood": "energetic, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 11,
+      "features": {
+        "key": "D#",
+        "tonality": "minor",
+        "tempo": 156.25,
+        "time_signature": "4/4",
+        "mood": "energetic, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 12,
+      "features": {
+        "key": "A",
+        "tonality": "minor",
+        "tempo": 133.92857142857142,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 13,
+      "features": {
+        "key": "C#",
+        "tonality": "minor",
+        "tempo": 117.1875,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 14,
+      "features": {
+        "key": "G#",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 15,
+      "features": {
+        "key": "E",
+        "tonality": "minor",
+        "tempo": 156.25,
+        "time_signature": "4/4",
+        "mood": "energetic, dark",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 16,
+      "features": {
+        "key": "A",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 17,
+      "features": {
+        "key": "A",
+        "tonality": "minor",
+        "tempo": 110.29411764705883,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 18,
+      "features": {
+        "key": "D#",
+        "tonality": "major",
+        "tempo": 133.92857142857142,
+        "time_signature": "4/4",
+        "mood": "upbeat, bright, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 19,
+      "features": {
+        "key": "G",
+        "tonality": "minor",
+        "tempo": 81.52173913043478,
+        "time_signature": "4/4",
+        "mood": "moderate, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 20,
+      "features": {
+        "key": "G",
+        "tonality": "minor",
+        "tempo": 117.1875,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 21,
+      "features": {
+        "key": "E",
+        "tonality": "minor",
+        "tempo": 89.28571428571429,
+        "time_signature": "4/4",
+        "mood": "moderate, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 22,
+      "features": {
+        "key": "F#",
+        "tonality": "major",
+        "tempo": 98.6842105263158,
+        "time_signature": "4/4",
+        "mood": "moderate, bright, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 23,
+      "features": {
+        "key": "F#",
+        "tonality": "major",
+        "tempo": 104.16666666666667,
+        "time_signature": "4/4",
+        "mood": "upbeat, bright",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 24,
+      "features": {
+        "key": "F#",
+        "tonality": "major",
+        "tempo": 110.29411764705883,
+        "time_signature": "4/4",
+        "mood": "upbeat, bright",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 25,
+      "features": {
+        "key": "D",
+        "tonality": "minor",
+        "tempo": 110.29411764705883,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 26,
+      "features": {
+        "key": "B",
+        "tonality": "major",
+        "tempo": 144.23076923076923,
+        "time_signature": "4/4",
+        "mood": "energetic, bright, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 27,
+      "features": {
+        "key": "F#",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 28,
+      "features": {
+        "key": "F#",
+        "tonality": "minor",
+        "tempo": 117.1875,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 29,
+      "features": {
+        "key": "G#",
+        "tonality": "minor",
+        "tempo": 170.45454545454547,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 30,
+      "features": {
+        "key": "D",
+        "tonality": "minor",
+        "tempo": 187.5,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 31,
+      "features": {
+        "key": "D",
+        "tonality": "minor",
+        "tempo": 133.92857142857142,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 32,
+      "features": {
+        "key": "C",
+        "tonality": "minor",
+        "tempo": 156.25,
+        "time_signature": "4/4",
+        "mood": "energetic, dark",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 33,
+      "features": {
+        "key": "G#",
+        "tonality": "major",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, bright, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 34,
+      "features": {
+        "key": "A#",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 35,
+      "features": {
+        "key": "B",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 36,
+      "features": {
+        "key": "G#",
+        "tonality": "minor",
+        "tempo": 156.25,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 37,
+      "features": {
+        "key": "F#",
+        "tonality": "minor",
+        "tempo": 89.28571428571429,
+        "time_signature": "4/4",
+        "mood": "moderate, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 38,
+      "features": {
+        "key": "C",
+        "tonality": "minor",
+        "tempo": 104.16666666666667,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 39,
+      "features": {
+        "key": "G#",
+        "tonality": "minor",
+        "tempo": 93.75,
+        "time_signature": "4/4",
+        "mood": "moderate, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 40,
+      "features": {
+        "key": "G",
+        "tonality": "minor",
+        "tempo": 117.1875,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 41,
+      "features": {
+        "key": "D#",
+        "tonality": "minor",
+        "tempo": 117.1875,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 42,
+      "features": {
+        "key": "B",
+        "tonality": "major",
+        "tempo": 133.92857142857142,
+        "time_signature": "4/4",
+        "mood": "upbeat, bright",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 43,
+      "features": {
+        "key": "E",
+        "tonality": "minor",
+        "tempo": 104.16666666666667,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 44,
+      "features": {
+        "key": "G#",
+        "tonality": "minor",
+        "tempo": 144.23076923076923,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 45,
+      "features": {
+        "key": "A",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 46,
+      "features": {
+        "key": "A#",
+        "tonality": "minor",
+        "tempo": 187.5,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 47,
+      "features": {
+        "key": "A#",
+        "tonality": "minor",
+        "tempo": 156.25,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 48,
+      "features": {
+        "key": "A",
+        "tonality": "minor",
+        "tempo": 110.29411764705883,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 49,
+      "features": {
+        "key": "F",
+        "tonality": "major",
+        "tempo": 144.23076923076923,
+        "time_signature": "4/4",
+        "mood": "energetic, bright, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 50,
+      "features": {
+        "key": "E",
+        "tonality": "minor",
+        "tempo": 156.25,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 51,
+      "features": {
+        "key": "G",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 52,
+      "features": {
+        "key": "F",
+        "tonality": "minor",
+        "tempo": 133.92857142857142,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 53,
+      "features": {
+        "key": "E",
+        "tonality": "minor",
+        "tempo": 133.92857142857142,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 54,
+      "features": {
+        "key": "C",
+        "tonality": "minor",
+        "tempo": 98.6842105263158,
+        "time_signature": "4/4",
+        "mood": "moderate, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 55,
+      "features": {
+        "key": "A",
+        "tonality": "minor",
+        "tempo": 98.6842105263158,
+        "time_signature": "4/4",
+        "mood": "moderate, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 56,
+      "features": {
+        "key": "C",
+        "tonality": "minor",
+        "tempo": 89.28571428571429,
+        "time_signature": "4/4",
+        "mood": "moderate, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 57,
+      "features": {
+        "key": "E",
+        "tonality": "minor",
+        "tempo": 144.23076923076923,
+        "time_signature": "4/4",
+        "mood": "energetic, dark",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 58,
+      "features": {
+        "key": "G#",
+        "tonality": "major",
+        "tempo": 156.25,
+        "time_signature": "4/4",
+        "mood": "energetic, bright, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 59,
+      "features": {
+        "key": "D",
+        "tonality": "minor",
+        "tempo": 93.75,
+        "time_signature": "4/4",
+        "mood": "moderate, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 60,
+      "features": {
+        "key": "F#",
+        "tonality": "minor",
+        "tempo": 117.1875,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 61,
+      "features": {
+        "key": "D",
+        "tonality": "minor",
+        "tempo": 117.1875,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 62,
+      "features": {
+        "key": "E",
+        "tonality": "major",
+        "tempo": 98.6842105263158,
+        "time_signature": "4/4",
+        "mood": "moderate, bright",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 63,
+      "features": {
+        "key": "A",
+        "tonality": "minor",
+        "tempo": 78.125,
+        "time_signature": "4/4",
+        "mood": "moderate, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 64,
+      "features": {
+        "key": "B",
+        "tonality": "minor",
+        "tempo": 144.23076923076923,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 65,
+      "features": {
+        "key": "C#",
+        "tonality": "minor",
+        "tempo": 117.1875,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 66,
+      "features": {
+        "key": "F",
+        "tonality": "minor",
+        "tempo": 170.45454545454547,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 67,
+      "features": {
+        "key": "G",
+        "tonality": "minor",
+        "tempo": 98.6842105263158,
+        "time_signature": "4/4",
+        "mood": "moderate, dark",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "soft"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 68,
+      "features": {
+        "key": "A",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 69,
+      "features": {
+        "key": "E",
+        "tonality": "minor",
+        "tempo": 98.6842105263158,
+        "time_signature": "4/4",
+        "mood": "moderate, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 70,
+      "features": {
+        "key": "C#",
+        "tonality": "minor",
+        "tempo": 133.92857142857142,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 71,
+      "features": {
+        "key": "C#",
+        "tonality": "minor",
+        "tempo": 117.1875,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 72,
+      "features": {
+        "key": "D",
+        "tonality": "minor",
+        "tempo": 156.25,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 73,
+      "features": {
+        "key": "C",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 74,
+      "features": {
+        "key": "G",
+        "tonality": "minor",
+        "tempo": 144.23076923076923,
+        "time_signature": "4/4",
+        "mood": "energetic, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 75,
+      "features": {
+        "key": "E",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 76,
+      "features": {
+        "key": "D#",
+        "tonality": "minor",
+        "tempo": 144.23076923076923,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 77,
+      "features": {
+        "key": "E",
+        "tonality": "minor",
+        "tempo": 156.25,
+        "time_signature": "4/4",
+        "mood": "energetic, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 78,
+      "features": {
+        "key": "C",
+        "tonality": "major",
+        "tempo": 117.1875,
+        "time_signature": "4/4",
+        "mood": "upbeat, bright, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 79,
+      "features": {
+        "key": "B",
+        "tonality": "major",
+        "tempo": 98.6842105263158,
+        "time_signature": "4/4",
+        "mood": "moderate, bright, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 80,
+      "features": {
+        "key": "E",
+        "tonality": "major",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, bright, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 81,
+      "features": {
+        "key": "C",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 82,
+      "features": {
+        "key": "F#",
+        "tonality": "minor",
+        "tempo": 170.45454545454547,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 83,
+      "features": {
+        "key": "G",
+        "tonality": "major",
+        "tempo": 117.1875,
+        "time_signature": "4/4",
+        "mood": "upbeat, bright, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 84,
+      "features": {
+        "key": "A#",
+        "tonality": "minor",
+        "tempo": 133.92857142857142,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 85,
+      "features": {
+        "key": "C",
+        "tonality": "minor",
+        "tempo": 81.52173913043478,
+        "time_signature": "4/4",
+        "mood": "moderate, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "soft"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 86,
+      "features": {
+        "key": "C#",
+        "tonality": "minor",
+        "tempo": 156.25,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 87,
+      "features": {
+        "key": "B",
+        "tonality": "major",
+        "tempo": 144.23076923076923,
+        "time_signature": "4/4",
+        "mood": "energetic, bright",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 88,
+      "features": {
+        "key": "A",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 89,
+      "features": {
+        "key": "C",
+        "tonality": "minor",
+        "tempo": 170.45454545454547,
+        "time_signature": "4/4",
+        "mood": "energetic, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 90,
+      "features": {
+        "key": "G",
+        "tonality": "minor",
+        "tempo": 98.6842105263158,
+        "time_signature": "4/4",
+        "mood": "moderate, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 91,
+      "features": {
+        "key": "E",
+        "tonality": "minor",
+        "tempo": 133.92857142857142,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 92,
+      "features": {
+        "key": "B",
+        "tonality": "minor",
+        "tempo": 170.45454545454547,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 93,
+      "features": {
+        "key": "F",
+        "tonality": "minor",
+        "tempo": 104.16666666666667,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 94,
+      "features": {
+        "key": "C#",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 95,
+      "features": {
+        "key": "G#",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 96,
+      "features": {
+        "key": "F",
+        "tonality": "minor",
+        "tempo": 133.92857142857142,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 97,
+      "features": {
+        "key": "E",
+        "tonality": "minor",
+        "tempo": 62.5,
+        "time_signature": "4/4",
+        "mood": "moderate, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 98,
+      "features": {
+        "key": "E",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    },
+    {
+      "sample_idx": 99,
+      "features": {
+        "key": "F",
+        "tonality": "minor",
+        "tempo": 170.45454545454547,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "prompt_count": 5,
+      "modes": [
+        "divergent",
+        "convergent"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+# Music-to-Image Pipeline Configuration
+
+# Audio Analysis
+audio:
+  sample_rate: 16000
+  target_duration: 10  # seconds
+
+# Mel-Spectrogram Configuration
+mel_spectrogram:
+  enabled: false  # Set to true to enable mel-spectrogram analysis in pipeline
+  n_mels: 128  # Number of mel frequency bins (perceptually-spaced frequency bands)
+  n_fft: 2048  # FFT window size (frequency resolution)
+  hop_length: 512  # Number of samples between successive frames (time resolution)
+  window: "hann"  # Window function type (hann, hamming, blackman, etc)
+  fmin: 0  # Minimum frequency (Hz)
+  fmax: null  # Maximum frequency (Hz) - null uses sample_rate/2
+  power: 2.0  # Power of magnitude spectrum
+  log_scale: true  # Convert to log scale (dB)
+  center: true  # Center the signal with padding
+
+  # Mel-spectrogram analysis output
+  include_in_prompt: true  # Include mel-spectrogram analysis in LLM prompt
+  ascii_visualization: true  # Include ASCII art patterns in text representation
+
+# Generation Modes
+generation:
+  default_mode: "convergent"  # or "divergent"
+  convergent_temperature: 0.4
+  divergent_temperature: 0.8
+
+# Designer Agents
+designer_agents:
+  enabled: true
+  roles:
+    - narrative      # Focuses on story arc and emotional journey
+    - mood          # Focuses on color palette and emotional tone
+    - style         # Focuses on artistic direction
+    - conceptual    # Focuses on abstract concepts and symbolism
+    - commercial    # Focuses on audience appeal
+
+# Consensus/Dissent Ratio
+consensus:
+  consensus_ratio: 0.70    # 70% agreement
+  dissent_ratio: 0.30      # 30% creative alternatives
+  dissent_preservation: true  # Keep minority perspectives
+
+# LLM Configuration
+llm:
+  # Primary provider (auto-detected if not specified)
+  provider: "claude"  # "claude", "ollama", or "mock"
+
+  # Claude API settings
+  claude:
+    model: "claude-3-5-sonnet-20241022"  # or "claude-3-opus-20250219"
+    max_tokens: 1024
+    temperature: 0.7
+
+  # Ollama settings (for local models)
+  ollama:
+    model: "mistral"  # or "llama2", "neural-chat", etc.
+    base_url: "http://localhost:11434"
+    temperature: 0.7
+
+  # Fallback to mock if nothing else available
+  mock:
+    model: "mock-model"
+
+# Output Configuration
+output:
+  save_results: true
+  output_directory: "./outputs"
+  formats:
+    - "json"         # Save as JSON
+    - "markdown"     # Save as readable markdown
+  include_sections:
+    - metadata
+    - features
+    - abc_notation
+    - visual_analysis
+    - designer_variations
+    - final_image_prompt
+
+# Feature Extraction Settings
+features:
+  # Chroma analysis for key detection
+  chroma:
+    n_chroma: 12
+
+  # Tempo detection
+  tempo:
+    min_bpm: 40
+    max_bpm: 240
+
+  # MFCC for timbre analysis
+  mfcc:
+    n_mfcc: 13
+
+  # Spectral features
+  spectral:
+    hop_length: 512
+
+# Prompt Engineering
+prompts:
+  # Whether to include ABC notation in the prompt
+  include_abc_notation: true
+
+  # Whether to include individual feature analysis
+  include_feature_details: true
+
+  # Style guidance (can be overridden per-sample)
+  default_style_guidance: null
+
+  # Custom instructions for each role
+  role_instructions:
+    narrative: "Focus on emotional arc and story progression"
+    mood: "Emphasize color psychology and emotional tone"
+    style: "Specify artistic medium and visual technique"
+    conceptual: "Use metaphors and symbolic representations"
+    commercial: "Balance artistic quality with broad appeal"
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  save_logs: true
+  log_file: "./logs/pipeline.log"
+
+# Performance
+performance:
+  batch_size: 5         # For batch processing
+  num_workers: 2        # For parallel processing
+  cache_features: true  # Cache extracted features
+  cache_llm_responses: true  # Cache LLM responses
+
+# Validation
+validation:
+  # Check audio quality before processing
+  check_audio_quality: true
+  min_audio_length: 1.0     # seconds
+  max_audio_length: 300.0   # seconds
+
+  # Validate LLM responses
+  check_llm_response_quality: true
+  min_response_length: 50   # characters
+
+# Experimental / Advanced
+experimental:
+  # Alternative emotion inference methods
+  use_alternative_mood_detection: false
+
+  # Use pitch analysis for melody extraction
+  use_pitch_analysis: false
+
+  # Temporal dynamics (track changes over time)
+  track_temporal_changes: false
+
+  # Multi-scale analysis
+  use_multi_scale_analysis: false

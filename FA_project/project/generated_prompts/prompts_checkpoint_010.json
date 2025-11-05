@@ -1,0 +1,583 @@
+{
+  "metadata": {
+    "dataset_path": "../dataset/label_data_with_16kHz_audio.npy",
+    "generation_timestamp": "2025-11-05T07:03:36.339575",
+    "total_samples": 100,
+    "prompts_per_sample": 5,
+    "mel_spectrogram": false,
+    "llm_provider": "OllamaClient",
+    "sample_rate": 16000
+  },
+  "samples": [
+    {
+      "sample_idx": 0,
+      "metadata": {
+        "artist_name": [
+          "AKMU (\uc545\ub3d9\ubba4\uc9c0\uc158)"
+        ],
+        "album_name": "\ud56d\ud574",
+        "track_name": "\uc5b4\ub5bb\uac8c \uc774\ubcc4\uae4c\uc9c0 \uc0ac\ub791\ud558\uaca0\uc5b4, \ub110 \uc0ac\ub791\ud558\ub294 \uac70\uc9c0",
+        "slice_pos": [
+          45,
+          55
+        ]
+      },
+      "musical_features": {
+        "key": "F",
+        "tonality": "minor",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:Fm\nC2 D2 E2 F2 G2 |",
+      "prompts": [
+        {
+          "prompt_id": 0,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Title: Ethereal Dreamscape in F minor\n\nVisual Style: A dreamy, ethereal landscape with a sense of depth and dimensionality. The colors are muted, with a mix of warm and cool tones to convey a sense of introspection and contemplation. The composition is layered, with elements that seem to float or drift in the atmosphere.\n\nColor Palette:\n\n* Warm neutrals (beige, sand, gray) for the background, evoking a sense of stability and grounding.\n* Cool blues and purples for the sky, conveying a sense of mystery and otherworldliness.\n* Soft pinks and oranges for the clouds, adding a touch of warmth and vulnerability.\n\nAtmosphere: The overall atmosphere is one of introspection and contemplation, with a hint of melancholy. The dreamy quality of the image invites the viewer to escape into their own thoughts and emotions.\n\nMood: The mood of the image is complex and open to interpretation. It could be seen as hopeful or melancholic, depending on the viewer's perspective. The image seems to suggest that life is full of both beauty and pain, and that it's important to embrace both aspects.\n\nDescriptive Adjectives:\n\n* Ethereal\n* Dreamy\n* Introspective\n* Contemplative\n* Melancholic\n* Complex\n* Open-ended\n\n---\n\nThis visual prompt aims to capture the emotional essence of the music, with a focus on the dreamy and introspective qualities of the composition. The image should evoke a sense of depth and dimensionality, while also conveying the complex emotions that the music evokes."
+        },
+        {
+          "prompt_id": 1,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "In the dimly lit room, a lone figure stands, surrounded by an ethereal glow. The air is heavy with anticipation as the silhouette slowly begins to take shape. The soft, melodic notes of a distant piano ebb and flow like a gentle breeze, building in intensity until a rich, complex progression unfolds.\n\nAs the music swells, the figure transforms into a being of radiant light, its form glowing with an otherworldly energy. The colors blend and shift, casting a mesmerizing spell on all who behold it. Deep blues and purples give way to vibrant oranges and reds, as the music reaches its climax in a burst of golden brilliance.\n\nThe atmosphere is one of dark introspection, yet there is a sense of hope and transcendence. The mood is both melancholic and exhilarated, capturing the bittersweet essence of life's journey. As the music fades, the figure dissolves into the shadows once more, leaving behind an indelible mark on the psyche.\n\nColors: Deep blues, purples, oranges, reds, and golden yellows.\nAtmosphere: Dimly lit room with a sense of anticipation and introspection.\nMood: Melancholic yet exhilarated, capturing the bittersweet essence of life's journey."
+        },
+        {
+          "prompt_id": 2,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "In the depths of a dark forest, where the trees tower above and the shadows dance below, a glimmering path unfolds before you. The ground beneath your feet is soft and damp, with an eerie greenish tint that seems to pulse with each step. Above, the sky is shrouded in a thick layer of grey, with flashes of silver breaking through the clouds like knives cutting through mist.\n\nAs you walk, the trees seem to close in around you, their twisted limbs reaching out like skeletal fingers. The air is heavy with an otherworldly scent, a pungent blend of damp earth and decaying leaves. You can almost feel the weight of the forest's secrets pressing down upon you, like a thousand whispers in your ear.\n\nIn the distance, a faint light glimmers, beckoning you deeper into the heart of the woods. The path grows narrower, the trees taller and more menacing, until you are surrounded by an impenetrable wall of foliage. And yet, despite the oppressive darkness, you feel a strange sense of peace, as if the forest is holding its secrets close, waiting for you to uncover them.\n\nColor Palette:\n\n* Deep greens and blues, with touches of silver and grey\n* Earthy tones, with an otherworldly glow\n* Muted colors, with subtle hints of depth and complexity\n\nAtmosphere/Mood:\nEerie, dark, and mysterious, with a hint of peacefulness. The forest seems to be shrouded in an aura of secrecy and intrigue, inviting you to uncover its hidden truths."
+        },
+        {
+          "prompt_id": 3,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "In the realm of dreams, where the sky is painted in shades of F minor, a complex web of movement unfolds. The tempo is swift, yet measured, like the beating of a dark heart. The key signature whispers secrets of a mysterious world, where every color holds a hidden meaning.\n\nThe landscape is a kaleidoscope of contrasts \u2013 brightness and darkness, lightness and weightiness. Ascending melodies soar high above, while descending lines delve into the depths of the soul. The harmonic progression weaves an intricate tapestry of complexity, with each thread glimmering like a faceted gemstone.\n\nThe color palette is a fusion of warm and cool hues, evoking a sense of balance and tension. Rich, saturated colors pulse with intensity, while muted tones evoke a sense of quiet introspection. The overall atmosphere is one of upbeat darkness, where every note seems to hold a secret \u2013 a secret that only reveals itself upon closer inspection.\n\nIn this dreamworld, the image unfolds like a living, breathing creature. A dense network of lines and shapes entwines, weaving together in a complex dance of movement and stillness. The dynamic intensity pulses with energy, while the overall mood is one of emotional depth \u2013 a world that both tantalizes and unsettles.\n\nIn this world of sound and vision, the image prompt is a living, breathing entity that captures the essence of the music. It invites the viewer to delve deeper, to uncover the secrets hidden within its intricate patterns and colors. The resulting image will be a kaleidoscope of contrasts \u2013 a fusion of darkness and light, balance and tension, all woven together in a complex dance of movement and stillness."
+        },
+        {
+          "prompt_id": 4,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "Intricate, layered composition with a dark, introspective mood. The palette features rich, cool tones reminiscent of F minor, with deep blues and purples contrasting with soft, muted greys. Rapid, dynamic movements give way to balanced, moderate pacing as the piece unfolds, evoking a sense of growth and elevation.\n\nCompositionally, the melody contour ascends, grounded by a stable center, yet buoyed by an upward trajectory. Harmonically complex, with subtle layering and intricate details, the visuals convey a sense of depth and dimensionality.\n\nContrast and saturation are high, with intense colors giving way to soft, muted hues. The overall atmosphere is moody and introspective, yet vibrant and alive. The image captures the emotional essence of the music, a dark, complex progression that nonetheless maintains a sense of balance and growth."
+        }
+      ]
+    },
+    {
+      "sample_idx": 1,
+      "metadata": {
+        "artist_name": [
+          "Cocco"
+        ],
+        "album_name": "\u30b9\u30bf\u30fc\u30b7\u30e3\u30f3\u30af(Star Shank)",
+        "track_name": "\u6d77\u8fba\u306b\u54b2\u304f\u3070\u3089\u306e\u304a\u8a71 / The story of the rose blooming on the shore",
+        "slice_pos": [
+          37,
+          47
+        ]
+      },
+      "musical_features": {
+        "key": "D",
+        "tonality": "minor",
+        "tempo": 170.45454545454547,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:170\nK:Dm\nG2 F2 E2 D2 C2 |",
+      "prompts": [
+        {
+          "prompt_id": 0,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Amidst an ethereal mist, a gothic landscape unfolds, shrouded in a melancholic twilight. The sky's hue shifts between deep blues and black, pierced by shards of crimson, like embers from a dying flame. A dimly lit, labyrinthine forest beckons, its towering trees looming with an unsettling presence.\n\nIn this realm of darkness, the descending melody weaves a somber tale, as if foretelling a tragic fate. The harmonic progression's intricate layers evoke a sense of foreboding, while the dynamic intensity simmers with an undercurrent of tension.\n\nIn the midst of this eerie landscape, a solitary figure wanders, shrouded in mystery. Their face is obscured by shadows, their silhouette illuminated by the flickering red light that filters through the trees. Their steps echo through the silence, mingling with the haunting melody that lingers in the air.\n\nAs the image unfolds, the atmosphere grows more ominous, the color palette deepening into a rich, dark hue. The once-distant stars now seem to pierce through the veil of night, their ethereal glow illuminating the macabre scene. The overall mood is one of dark, dramatic energy, as if enveloped in an eerie, otherworldly dream."
+        },
+        {
+          "prompt_id": 1,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Image Prompt:\n\nIn the depths of a dark forest, a swirling vortex opens up, revealing a realm of eerie beauty. The sky above is shrouded in a thick layer of fog, with flashes of lightning illuminating the scene in bursts. The trees around are twisted and gnarled, their branches reaching out like bony fingers. In the center of this eerie landscape, a figure stands, surrounded by a halo of dim light. They are shrouded in shadows, but their face is visible, contorted in a mixture of pain and determination.\n\nThe color palette of this image is muted and dark, reflecting the melancholic tone of the music. The dominant colors are midnight blue, charcoal grey, and a deep, rich brown. The lightning flashes are a bright, electric white, while the fog is a soft, misty grey. The overall atmosphere is one of foreboding and unease, with an undercurrent of determination and resilience.\n\nThe composition of the image is busy yet balanced, with the figure at its center surrounded by a web of twisted branches and tendrils. The trees seem to be closing in on the figure, but they are also stretching out, as if trying to reach beyond the limits of the realm. The fog swirls around them, creating an otherworldly sense of disorientation and unease.\n\nThe dynamic intensity of the music is reflected in the contrast and saturation of the colors, with bursts of intense color piercing through the otherwise muted palette. The overall mood of the image is dark and dramatic, conveying a sense of struggle and triumph over adversity."
+        },
+        {
+          "prompt_id": 2,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Darkness looms over a desolate landscape, casting long shadows across barren hills and valleys. A lone figure stands atop a rocky outcropping, shrouded in mystery. The sky is a swirling vortex of black and gray, with flashes of lightning illuminating the gloom.\n\nIn the foreground, a twisted mass of branches and roots tangles together, forming a menacing silhouette against the darkening sky. The colors are muted and cold, with touches of blue and purple that hint at an underlying beauty.\n\nThe atmosphere is heavy with anticipation, as if the viewer is waiting for something ominous to unfold. The mood is dark, dramatic, and intense, with a sense of unease that lingers like a shadow.\n\nUse these descriptors to create a visual prompt for SDXL image generation:\n\n* Visual style: Dark, moody, atmospheric\n* Color palette: Cold, muted tones with touches of blue and purple\n* Composition: Twisted branches and roots in foreground, dark landscape in background\n* Atmosphere: Heavy anticipation, ominous undertones\n* Mood: Dark, dramatic, intense\n* Emotional essence: Unease, anxiety, foreboding."
+        },
+        {
+          "prompt_id": 3,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "In the dark of night, where shadows roam,\nA world of mystery, a realm of gloom.\nEchoes of distant screams and wails,\nClawing at the sky, like jagged tales.\n\nThe tempo races, a manic ride,\nWhispers of madness, as the shadows glide.\nDark hues of blue, with hints of red,\nA melody of doom, where death is fed.\n\nIn this realm, where hope is lost,\nColors bleed and shapes are tossed.\nA complex harmony, a symphony of pain,\nAs the darkness swirls, like a whirlwind's strain.\n\nThe dynamic intensity, a wicked spell,\nWeaves a tapestry of despair, so well.\nFrom deepest black to fiery red,\nA palette of emotions, in this darkened head.\n\nSo let the image unfold its tale,\nOf shadows dancing, as the night prevails.\nFor in this realm, where darkness reigns,\nThe visual prompt speaks, like a voice that remains."
+        },
+        {
+          "prompt_id": 4,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "Here is a detailed visual prompt for image generation based on the provided music representation:\n\n\"Ethereal Dreamscape in Dm\":\n\nComposition: A swirling vortex of vibrant colors envelops a central figure, evoking a sense of ethereal dreaminess. The scene unfolds in shades of midnight blue, purple, and silver, with dynamic brushstrokes that convey the intensity of the music's emotional depth. The central figure is shrouded in misty veils, their features obscured yet still radiating an otherworldly aura. The overall atmosphere is one of mesmerizing enchantment, as if suspended in a hypnotic trance.\n\nColor Palette: Rich, cool tones of Dm (blues, purples) give way to softer hues of moonlight and starry nights. Contrasting warmth from golden sunset-inspired colors adds depth and dimensionality to the composition.\n\nAtmosphere/Mood: Ethereal, dreamy, enchanting, mysterious, otherworldly. The music's complex harmonic progression and dynamic intensity create an environment that feels both hypnotic and unsettling, as if lost in a surreal landscape.\n\nDescriptive Adjectives: Swirling, vortex-like, vibrant, ethereal, dreamy, enchanting, mysterious, otherworldly, hypnotic, dynamic, complex, harmonious."
+        }
+      ]
+    },
+    {
+      "sample_idx": 2,
+      "metadata": {
+        "artist_name": [
+          "Excision"
+        ],
+        "album_name": "Night Shine (The Remixes)",
+        "track_name": "Night Shine (feat. Luciana) (Blaynoise Remix)",
+        "slice_pos": [
+          98,
+          108
+        ]
+      },
+      "musical_features": {
+        "key": "F",
+        "tonality": "major",
+        "tempo": 125.0,
+        "time_signature": "4/4",
+        "mood": "upbeat, bright, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:125\nK:F \nG2 F2 E2 D2 C2 |",
+      "prompts": [
+        {
+          "prompt_id": 0,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "\"Create a vibrant and dynamic image that captures the upbeat and bright essence of the music. The composition should feature a bold and colorful palette, with a mix of warm and cool tones to reflect the key signature's balance between major and minor elements.\n\nThe visual style should be characterized by rapid, energetic movements, with a tempo that suggests dynamic and flowing motion. This can be achieved through the use of bold lines, geometric shapes, and a sense of depth and dimensionality.\n\nIn terms of color, the palette should reflect the music's bright and positive tone, with shades of blue, green, and yellow providing a cheerful and lively atmosphere. Consider incorporating subtle gradient effects to add depth and dimension to the image.\n\nThe overall mood of the image should be one of excitement and drama, capturing the emotional essence of the music's complex harmonic progression and intense dynamic intensity. Use descriptive adjectives such as 'soaring,' 'dramatic,' and 'elevating' to convey the sense of movement and energy in the image.\""
+        },
+        {
+          "prompt_id": 1,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "\"Ethereal Dreamscape\"\n\nImmerse yourself in a world of ethereal beauty as an otherworldly dreamscape unfolds before your eyes. The melody's soaring contour takes center stage, with a bright and airy color palette that evokes a sense of weightlessness and freedom. As the tempo quickens, dynamic movements unfold like a celestial ballet, with hues of soft blue and purple gradually deepening into rich, golden tones.\n\nThe atmosphere is one of dreamlike tranquility, with a hint of drama and intrigue that keeps the eye engaged. The harmonic progression weaves an intricate tapestry of sound, creating a sense of depth and complexity that invites closer inspection. As the music reaches its climax, vibrant colors burst forth in a kaleidoscopic display of light and energy, leaving behind a lingering sense of wonder and awe.\n\nIn this world of imagination, the visuals are characterized by soft, muted hues that slowly transition into more vibrant, saturated tones. The composition is balanced and harmonious, with fluid, organic shapes that seem to flow like a river through the landscape. As the image unfolds, it becomes clear that this is no ordinary dreamscape \u2013 it is a world of magic, where the laws of reality are bent and twisted in impossible ways.\n\nIn the end, the visual prompt for this music representation is a swirling vortex of color and light, inviting the viewer to immerse themselves in a world of fantastical beauty and creativity."
+        },
+        {
+          "prompt_id": 2,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Generated Image Prompt:\n\nA vibrant, kaleidoscopic landscape unfolds before the viewer's eyes, capturing the essence of the song's dynamic intensity and complex harmonic progression. In the foreground, a majestic mountain range rises up, its peaks and valleys glistening with a palette of warm, bright colors - golden sunsets, cerulean skies, and emerald meadows. The mountainside is dotted with lush greenery, swaying in the breeze like a chorus of dancing trees.\n\nThe landscape shimmers and shifts, blurring the boundaries between reality and fantasy. The music's upbeat, bright mood is reflected in the image's bold, vivid colors, while its dramatic atmosphere is evoked through the use of darker, more muted tones. A sense of movement and pacing is conveyed through the sweeping curves and lines that crisscross the composition, drawing the viewer's eye across the landscape in a dynamic, energetic motion.\n\nThe overall effect is one of visual poetry, a feast for the senses that captures the emotional essence of the music and transports the viewer to a world of beauty and wonder."
+        },
+        {
+          "prompt_id": 3,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "Sunset over a serene landscape, with vibrant oranges and yellows fading into a soft blue sky. The horizon stretches out in a gentle arc, with rolling hills and lush greenery dotting the scene. A dramatic arc of light illuminates the sky, casting warm hues across the landscape below.\n\nThe color palette is reminiscent of the F major key, with warm, bright tones that evoke feelings of happiness and optimism. The moderate tempo map suggests a balanced, flowing motion, while the dynamic intensity adds a sense of energy and drama to the image. The overall mood is upbeat and bright, with a touch of drama and intrigue.\n\nIn terms of visual style, the composition features soft, sweeping lines that evoke a sense of movement and flow. The atmosphere is calm and serene, with a focus on the beauty of nature.\n\nDescriptive adjectives that convey the emotional essence of the music include vibrant, lively, and uplifting, with a touch of drama and intrigue. The image prompt should evoke feelings of joy, happiness, and a sense of connection to nature."
+        },
+        {
+          "prompt_id": 4,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "In a world of swirling colors and shapes, a bright, upbeat melody weaves through the air like a ray of sunshine. The tempo quickens as vibrant hues dance across the landscape, their movements a perfect reflection of the music's energetic pulse. Soft, pastel tones mingle with bold, jewel-toned ones, creating a kaleidoscope of contrast and complexity.\n\nAs the melody soars, the palette transforms into a dazzling array of warm, golden colors, illuminating the scene with a sense of optimism and joy. The atmosphere is lighthearted and carefree, with a hint of drama and excitement lurking beneath the surface. The overall mood is one of exuberance and playfulness, inviting the viewer to indulge in the pure pleasure of existence.\n\nIn this whimsical world, dynamic intensity is expressed through the contrast of light and dark, with saturated colors giving way to softer, more muted tones. The visual flow is characterized by a steady build-up of detail and complexity, mirroring the layered progression of the music. As the melody reaches its climax, the image bursts forth in a dazzling display of bright, bold hues, leaving the viewer with an unforgettable impression of joy, wonder, and pure musical magic."
+        }
+      ]
+    },
+    {
+      "sample_idx": 3,
+      "metadata": {
+        "artist_name": [
+          "\ub9c8\uc5d0\uc2a4\ud2b8\ub85c \ud0c0\uc784"
+        ],
+        "album_name": "\ud0a4\uc988\uc758 \uc219\uba74\uc744 \uc704\ud55c \uafc8\ucc98\ub7fc \ud3ec\uadfc\ud55c \ud074\ub798\uc2dd \uc790\uc7a5\uac00 \ubaa8\uc74c\uc9d1",
+        "track_name": "\uc0dd\uc0c1\uc2a4\uc758 \ub3d9\ubb3c\uc758 \uc0ac\uc721\uc81c 7\ubc88 \u2013 \uc218\uc871\uad00",
+        "slice_pos": [
+          117,
+          127
+        ]
+      },
+      "musical_features": {
+        "key": "G#",
+        "tonality": "minor",
+        "tempo": 144.23076923076923,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:^Gm\nG2 F2 E2 D2 C2 |",
+      "prompts": [
+        {
+          "prompt_id": 0,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "A dark and dramatic landscape unfolds before you, with swirling shadows cast by twisted, gnarled trees that seem to stretch towards the sky like grasping fingers. The ground beneath your feet is rough and uneven, littered with jagged rocks and tangled underbrush, as if this place has been torn apart by some unseen force. A sickly greenish hue permeates the atmosphere, casting an eerie glow over the entire scene.\n\nThe colors of the landscape are muted and dull, reflecting the dark, introspective mood of the music. Shades of putrid green and sickly yellow blend together, punctuated by occasional flashes of fiery red that flicker like embers in the darkness. The sky above is a deep, foreboding purple, filled with swirling clouds that seem to writhe and twist like living things.\n\nAs you gaze upon this eerie scene, you can't help but feel a sense of unease, as if something ominous lurks just beyond the edge of perception. The atmosphere is heavy and oppressive, weighing down on your senses like a physical force. Every element of the landscape seems to pulse with an otherworldly energy, as if this place has been imbued with a dark and malevolent power.\n\nIn short, the visual prompt for SDXL image generation is a haunting and unsettling landscape filled with twisted trees, rough terrain, eerie colors, and an atmosphere of oppressive darkness that seems to seep into every corner of the scene."
+        },
+        {
+          "prompt_id": 1,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "In a dark, eerie landscape, gnarled trees twist and turn like skeletal fingers reaching for the sky. Shadows dance ominously across the ground, as if alive and plotting their next move. A faint light flickers in the distance, casting an otherworldly glow over the scene. The atmosphere is tense and unsettling, with a sense of foreboding that cannot be ignored.\n\nIn the foreground, a lone figure stands atop a rocky outcropping, their back to the viewer. They are shrouded in mystery, their features obscured by shadows. Their posture is one of determination, as if they are ready to face whatever horrors lie ahead. The air is thick with anticipation, as if any moment could bring about a cataclysmic event.\n\nColor palette:\n\n* Dark blues and purples for the shadows and sky\n* Muted greens and browns for the landscape\n* A touch of golden yellow to add warmth and depth\n\nAtmosphere:\n\n* Ominous and foreboding\n* A sense of impending doom\n* The feeling of being caught in a dark, unsettling place with no escape\n\nMood:\n\n* Dark and introspective\n* A sense of unease and discomfort\n* The emotional essence of the music distilled into an image."
+        },
+        {
+          "prompt_id": 2,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "The dark and dramatic energy of this song resonates in an image of twilight, with hues of deep blue, purple, and gray casting a somber mood. The tempo's rapid movements are reflected in the staccato brushstrokes of a painterly style, while the complex harmonic progression evokes intricate details and layering.\n\nCompositionally, the image depicts a landscape with jagged mountain peaks reaching towards an indigo sky. The forms are angular and sharp, emphasized by the bold brushwork that gives depth and texture to each peak. Thin ribbons of water cascade down their sides, creating a sense of dynamism and movement.\n\nColorwise, the palette is muted yet rich, reflecting the song's minor key and dark atmosphere. Blues and purples dominate, with subtle hints of gold and orange adding warmth without dispelling the overall sense of foreboding. The contrast between light and dark areas creates a dramatic interplay of light and shadow that heightens the visual drama.\n\nAtmospherically, this image captures the feeling of being on the cusp of something unknown and unsettling. A sense of unease permeates the scene, as if one is standing at the edge of a precipice with an unseen force lurking just beyond. The overall mood is intense and brooding, inviting the viewer to delve deeper into the mystery of the image.\n\nIn summary, this visual prompt captures the dark and dramatic essence of the song through its bold brushwork, intricate details, and moody color palette. The resulting image will be a gripping composition that resonates with the emotional depth of the music."
+        },
+        {
+          "prompt_id": 3,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "In the dimly lit room, a swirling vortex of darkness takes shape, its form ebbing and flowing like the complex harmonic progression of the song. The tempo quickens, the colors deepen, and the motion intensifies, building towards an unsettling climax. Shades of midnight blue meld with shimmering gold, their contrast sharply defined as the dynamic intensity surges.\n\nAs the melody descends, the visual composition unfolds in a series of sinuous lines, twisting and turning like a dark, dramatic dance. The key signature of G# minor resonates through the image, its somber hue imbued with an unmistakable air of foreboding. The overall mood is one of intense, almost oppressive darkness, tempered only by the subtle hints of light that flicker within the vortex like distant stars in a black void.\n\nWith each beat, the maelstrom intensifies, its energy building towards an inevitable crescendo. The visual palette shifts and swirls, as if reflecting the complex harmonic progression at play, with bursts of fiery red and orange flashing through like brief, brilliant stars amidst the encroaching darkness. As the music reaches its climax, the vortex erupts in a final, cathartic explosion of color and motion, leaving behind a sense of lingering unease that hangs like a shroud in the silence that follows."
+        },
+        {
+          "prompt_id": 4,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "In the dimly lit corner of a mysterious forest, a glowing, ethereal light emanates from behind an ancient tree. The source of this radiance appears to be a mesmerizing, iridescent portal, pulsing with a dynamic intensity that echoes the ascending and descending melodic lines of the song. The colors of the portal shimmer and change, reflecting the key's emotional mood \u2013 cool blues and minor tones for moments of introspection, and warm, golden hues for bursts of energetic movement.\n\nAs one steps closer to the portal, the atmosphere becomes increasingly dreamlike and surreal. Shadows dance on the forest floor, casting eerie patterns that seem to move in time with the music's steady beat. The air thickens with an otherworldly energy, evoking a sense of wonder and awe.\n\nThe overall mood of this vision is one of dramatic, dark intensity \u2013 like a storm brewing on the horizon \u2013 yet also infused with a sense of magic and enchantment. As if the very fabric of reality is being manipulated by the melody's hypnotic pull. The visual prompt invites the viewer to step through the portal and into this realm of dreamlike fantasy, where the boundaries between reality and imagination blur."
+        }
+      ]
+    },
+    {
+      "sample_idx": 4,
+      "metadata": {
+        "artist_name": [
+          "Christian Tetzlaff"
+        ],
+        "album_name": "Bach, J.S.: Sonatas And Partitas For Solo Violin, BWV 1001-1006 (Tetzlaff)",
+        "track_name": "Bach: Violin Partita No. 2 In D Minor, BWV 1004 - Iii. Sarabanda",
+        "slice_pos": [
+          189,
+          199
+        ]
+      },
+      "musical_features": {
+        "key": "D",
+        "tonality": "major",
+        "tempo": 133.92857142857142,
+        "time_signature": "4/4",
+        "mood": "upbeat, bright",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:133\nK:D \nC2 D2 E2 F2 G2 |",
+      "prompts": [
+        {
+          "prompt_id": 0,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Sunny skies illuminate a vast landscape of rolling hills, with patches of vibrant wildflowers dotting the terrain. The sky is ablaze with hues of orange and pink, gradually transitioning to shades of purple and blue as the horizon fades away. A gentle breeze stirs the grasses, causing them to sway in unison like a chorus of dancing waves.\n\nIn the foreground, a group of playful creatures frolic amidst the lush foliage. They bound through the landscape with joyful exuberance, their brightly colored coats glistening in the warm sunlight. The atmosphere is lighthearted and carefree, evoking feelings of happiness and contentment.\n\nColor palette suggestions: Warm, bright colors like yellow, orange, pink, and purple to represent the sunny sky and vibrant wildflowers. Cool, dark colors like blue and green to create depth and contrast in the composition.\n\nAtmosphere and mood: Upbeat and cheerful, with a sense of freedom and joy. The image should convey a feeling of playfulness and happiness, capturing the essence of the music's bright and lively tempo."
+        },
+        {
+          "prompt_id": 1,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Spectacular Sunset in a Vibrant D major Tonality\n\nA dazzling sunset fills the sky with a rainbow of colors, from warm oranges and yellows to cool blues and purples. The horizon glows bright red as the sun slowly dips below, casting a golden light upon the landscape. Soft pastel hues dance across the sky, their delicate shades evoking a sense of serenity and introspection.\n\nIn this dreamy scene, trees stand tall and slender, their leaves rustling softly in the gentle breeze. A tranquil lake shimmers peacefully in the distance, reflecting the vibrant colors of the sky like a mirror. The atmosphere is luminous and ethereal, with an undulating quality that seems to stretch and flow like the melody of the song.\n\nAs the sun sinks lower, the colors deepen and become more saturated, imbuing the scene with a sense of mystery and wonder. Moderate temperament creates a balanced pacing, while the complex harmonic progression adds layers of intricate details. The dynamic intensity ranges from soft to intense, depending on the moment, creating an emotional journey that resonates with the upbeat, bright mood of the song.\n\nIn this captivating scene, the image generator is invited to unleash their creativity and bring forth a stunning visual representation of the music's evocative essence."
+        },
+        {
+          "prompt_id": 2,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Intricate architecture soars amidst a kaleidoscope of vibrant colors in \"Generated Song.\" The tempo's rapid, dynamic motion gives way to a balanced, moderate pacing, while the key's bright D major hue illuminates the scene with warmth and positivity. Ascending melody lines evoke upward movement and growth, while the harmonic progression's complexity adds layered, intricate details. The dynamic intensity is moderate, lending a sense of emotional depth without overwhelming the senses.\n\nIn this vivid image prompt, the visual style is characterized by grandiose structures with ornate details, set against a backdrop of swirling colors that evoke a sense of movement and energy. The color palette is predominantly bright and warm, with pops of cooler hues adding depth and complexity to the overall composition. The atmosphere is lively and uplifting, evoking feelings of growth and positivity."
+        },
+        {
+          "prompt_id": 3,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "Sure! Based on the provided music representation and mapping, here is a detailed visual prompt suitable for SDXL image generation:\n\n\"A vibrant, sun-kissed landscape stretches out before you, with a gentle slope leading up to a horizon filled with cumulus clouds. The sky is painted in warm, pastel hues of peach, orange, and pink, blending seamlessly into the soft, sandy beaches below. The composition flows smoothly, with a central axis of movement that draws your eye towards the horizon. The atmosphere is bright, upbeat, and energetic, with a sense of growth and elevation. Moderate dynamic intensity adds depth and contrast to the overall image, while the key of D major maintains a warm, inviting quality. Color palette suggestions include palettes of golden yellow, sky blue, and sunset orange to evoke a sense of optimism and joy.\""
+        },
+        {
+          "prompt_id": 4,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "Sure! Based on the provided music representation, here is a detailed visual prompt suitable for SDXL image generation:\n\n\"A vibrant and energetic landscape filled with bright, warm colors. The composition features an ascending melody line, evoking a sense of upward growth and elevation. The tempo is moderate, with a dynamic intensity that balances calmness and energy. The key of D major contributes to a positive and uplifting atmosphere, while the harmonic progression adds layers of complexity and detail. The overall mood is bright and cheerful, with a sense of optimism and joy.\n\nIn terms of visual style, imagine a mix of impressionistic and abstract elements. Soft brushstrokes and gentle blending create a dreamy quality, while bold strokes and vivid colors add texture and depth. The palette is predominantly warm and sunny, with pops of cool blue and green for added contrast. Overall, the image should convey a sense of movement, growth, and joyful energy.\""
+        }
+      ]
+    },
+    {
+      "sample_idx": 5,
+      "metadata": {
+        "artist_name": [
+          "KAMEL"
+        ],
+        "album_name": "FANTASISTA",
+        "track_name": "\ud5e4\uc5b4\uc0b4\ub871",
+        "slice_pos": [
+          9,
+          19
+        ]
+      },
+      "musical_features": {
+        "key": "F",
+        "tonality": "minor",
+        "tempo": 144.23076923076923,
+        "time_signature": "4/4",
+        "mood": "energetic, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:Fm\nC2 D2 E2 F2 G2 |",
+      "prompts": [
+        {
+          "prompt_id": 0,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "In the depths of a dark, mysterious forest, a complex network of twisted vines and gnarled branches stretch towards the sky like bony fingers. The canopy above is a kaleidoscope of colors, with warm, golden hues gradating into cool, ethereal blues. Shadows dance across the forest floor, their shapes-changing in time with the haunting melody that fills the air.\n\nThe tempo is moderate, balancing energy and serenity as it weaves a rich harmonic progression of minor keys and complex chords. The dynamic intensity is moderate, with contrasting saturation levels adding depth and intrigue to the visual landscape. As the music unfolds, the atmosphere evolves from introspective to energetically dark, capturing the emotional essence of the composition.\n\nIn this surreal setting, a lone figure moves gracefully through the underbrush, their form blending with the shadows and tree trunks as they dance to the unseen rhythm. Their presence is both grounding and elevating, reflecting the dual nature of the music's key and tonality. As the camera pans out, the scene dissolves into a swirling vortex of colors, capturing the kaleidoscopic quality of the musical composition in a dreamlike, immersive visual experience."
+        },
+        {
+          "prompt_id": 1,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Intricate cityscapes with dark alleys, twisted streets, and looming skyscrapers dance within a maelstrom of swirling colors, conjuring an atmosphere of complex intensity. Fiery hues of orange and red pulse through the shadows like embers in a dark furnace, while cool blues and greens whisper secrets in the alleys' twilight corners. The tempo quickens with each step, as if the city itself is alive, pulsing with a rhythm that threatens to burst forth from every crevice and cranny.\n\nThe key of F minor draws upon rich, dark tones reminiscent of an underground river, flowing through the labyrinthine streets like a vein of pure, unadulterated emotion. The melody contour soars like a raven's wing, piercing the heavens with each note, while the harmonic progression unfolds like a tapestry of interwoven threads, each one more intricate than the last.\n\nDynamic intensity crackles through every frame, casting an ethereal glow upon the scene, as if the very essence of the music were distilled into a palpable light that illuminates the darkest corners of the cityscape. The overall mood is one of energetic darkness, a menacing undercurrent that threatens to burst forth at any moment and consume all in its path.\n\nIn this world of swirling colors and twisted streets, the visual prompt invites you to lose yourself in the intricate web of sound and vision, to become entwined in the complex progression of the music itself, and to succumb to the dark, intense atmosphere that permeates every frame."
+        },
+        {
+          "prompt_id": 2,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Sure! Here is a detailed visual prompt for SDXL image generation based on the provided music representation:\n\n\"A dark and moody landscape unfolds before us, with towering mountains piercing the sky like jagged teeth. The terrain stretches out in a vast expanse of twilight hues, ranging from deep purples to muted greys. A lone figure trudges through the desolate terrain, their backlit form casting a faint silhouette against the swirling clouds above. The air is heavy with an unsettling stillness, and the distant howl of a wolf echoes through the cavernous valley. As we delve deeper into this haunting scene, we are met with an atmosphere both eerie and captivating, beckoning us to explore the mysteries that lie within.\"\n\nIn terms of specific color suggestions based on the music, I would recommend using a palette of deep blues, purples, and greys to evoke the dark and moody atmosphere. The key and tonality of F minor suggest a cool and introspective color scheme, while the dynamic intensity of moderate tempo and complex harmonic progression could be captured through the use of subtle contrast and saturation. Finally, the melody contour of ascending and descending lines could be represented through the composition's flow and movement, with areas of stillness and calm punctuating the overall sense of momentum and energy."
+        },
+        {
+          "prompt_id": 3,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "Intricate, layered architecture rises from the depths of an endless ocean like a dark, mystical island. The sky above is ablaze with fiery hues of orange and red, casting an ethereal glow upon the scene. Elevated stone structures pierce through the clouds, their angular shapes piercing the heavens like jagged teeth. Cascading waterfalls plunge from towering cliffs into the roiling sea below, creating a mesmerizing display of fluid dynamics. The atmosphere is one of intense energy and dark mystery, as if an ancient, otherworldly civilization has risen to reveal its secrets after centuries of slumber. Moderate dynamic intensity charges the scene with an undercurrent of tension, while a muted color palette of deep blues, greens, and grays creates a somber, introspective atmosphere that invites contemplation and wonder."
+        },
+        {
+          "prompt_id": 4,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "In a dark, mysterious forest, twisted tree limbs stretch upward like skeletal fingers, casting eerie shadows across the mossy ground. A swirling vortex of midnight blue clouds churns overhead, illuminated by distant flashes of lightning that split the sky in two. The air is thick with an otherworldly energy, heavy with the scent of damp earth and decaying leaves. In this disquieting landscape, a lone figure stalks through the underbrush, their form obscured by shadows, their face hidden behind a mask of tattered black lace. Their footsteps echo through the silence, growing fainter as they disappear into the depths of the forest, leaving behind an atmosphere of foreboding and unease.\n\nColor palette suggestions:\n\n* Midnight blue clouds: rich, cool tones of navy and indigo\n* Eerie shadows: deep, dark greys and blacks with hints of greenish-blue\n* Decaying leaves: warm, earthy tones of golden brown and orange-red\n* Tattered black lace: cool, dark grey-blues and purples\n\nAtmosphere/mood suggestions:\n\n* Eerie and foreboding\n* Mysterious and unsettling\n* Dark and ominous\n* Otherworldly and supernatural\n\nDescriptive adjectives:\n\n* Twisted\n* Skeletal\n* Eerie\n* Midnight blue\n* Tattered\n* Decaying\n* Lurid\n* Forbidding"
+        }
+      ]
+    },
+    {
+      "sample_idx": 6,
+      "metadata": {
+        "artist_name": [
+          "\ubb34\ub4dc\ud640\ub9ad (Moodholic)"
+        ],
+        "album_name": "\ubd04\ubc14\ub78c\uc744 \ud0c0\uace0 \uc628 \uc120\uc728 [\uaf43\uae38\uc5d0\uc11c]",
+        "track_name": "\ub2f4\uc7c1\uc774 \uae38 (The ivy Way)",
+        "slice_pos": [
+          127,
+          137
+        ]
+      },
+      "musical_features": {
+        "key": "A#",
+        "tonality": "minor",
+        "tempo": 81.52173913043478,
+        "time_signature": "4/4",
+        "mood": "moderate, dark",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "moderate"
+      },
+      "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:81\nK:^Am\nC2 D2 E2 F2 G2 |",
+      "prompts": [
+        {
+          "prompt_id": 0,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "In the realm of dark, A# minor melodies flow through a landscape of twisted, gnarled trees. The tempo is moderate, with a hint of urgency in every beat. The key signature's mood is reflected in the palette of subdued, cool colors - blues, purples, and grays.\n\nAscending melody lines weave through the composition like a maze, evoking a sense of growth and elevation. Harmonies add depth and complexity, creating an intricate web of sounds that shift and move like a living entity. Dynamic intensity varies, with moments of intense emotion followed by softer, more introspective sections.\n\nIn this dreamlike landscape, shadows dance and wriggle across the ground, casting eerie patterns on the twisted trees. The atmosphere is one of moderate darkness, with a hint of melancholy that lingers like a subtle scent on the air.\n\nGenerate an image that captures the essence of this musical composition - a world of twisted, gnarled beauty, where shadows dance and harmonies weave through the landscape like a living entity. Use colors that reflect the mood of the music - blues, purples, grays, and other muted tones to convey the atmosphere of moderate darkness with hints of melancholy."
+        },
+        {
+          "prompt_id": 1,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Title: \"Ethereal Echoes in A# Minor\"\n\nImage Prompt:\nA dreamy, ethereal landscape unfolds before you, where shades of A# minor twilight dance across the canvas. Soft, feathery clouds drift lazily overhead, casting a warm, gentle glow upon the scene. The atmosphere is one of introspective contemplation, with a moderate mood that's both dark and hopeful.\n\nThe composition is characterized by subtle undulations, as if the landscape itself were breathing in time with the music's melody. A series of gentle rills meander across the image, disappearing into the shadows, creating a sense of depth and dimensionality. The overall palette is muted, with cool, dark tones that evoke the somber nature of the minor key, yet with hints of warmth and light that suggest the possibility of hope and redemption.\n\nIn the foreground, a solitary figure stands, gazing out into the distance with an expression of longing and yearning. The figure is shrouded in shadows, allowing their features to remain obscure, yet the sense of vulnerability and fragility is palpable. The color palette around them is muted, with a hint of blue-green tones that evoke the melancholic nature of the music.\n\nThe overall effect is one of haunting beauty, evoking a sense of timelessness and otherworldliness. The image seems to capture the very essence of the A# minor key, with its dark, introspective mood, yet with hints of hope and redemption that suggest a brighter future ahead."
+        },
+        {
+          "prompt_id": 2,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Intricate Shadows Dance on Crimson Canvas\n\nThe melancholic harmony weaves a dark, introspective tale, evoking an atmosphere of moderate mood and dynamic intensity. As the rhythm flows with complex progression, visualize intricate shadows dancing across a crimson canvas, casting subtle movements that breathe life into the somber scene. The palette consists of cool, dark hues, accentuating the mellow key signature.\n\nEthereal wisps of light gracefully float amidst the shadows, adding a touch of serenity to the overall composition. The tempo flows like a gentle stream, balancing the intricate details with an unwavering pace. As the melody rises and falls, the shadows entwine in a mesmerizing dance, immersing the viewer in the somber beauty of this dark reverie.\n\nKey colors: Crimson, navy blue, charcoal gray, ivory, and smoky quartz.\nAtmosphere: Somber, introspective, melancholic, moderate mood, dynamic intensity."
+        },
+        {
+          "prompt_id": 3,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "In a dark, A# minor realm, twilight's gleam reigns. A somber, flowing melody (82 BPM) weaves between wispy strands of grass and ripples in the unsettled waters below. The tempo moderates, its pace steady yet unpredictable, as if nature itself were composing this ethereal serenade.\n\nShades of cool, dark blues and purples permeate the atmosphere, while subtle hints of gold dance within the shadows, mirroring the song's complex harmonic progression. The dynamic intensity is moderate yet evocative, saturating the image with an emotional essence that lingers in the mind like a haunting refrain.\n\nThe visual style is reminiscent of Whistler's nocturnal landscapes - mysterious, otherworldly, and shrouded in mist. The composition balances horizontal and vertical elements, with an emphasis on depth and dimensionality, much like the intricate layers of a Baroque Fugue.\n\nColor suggestions:\n\n* Deep blues and purples for the twilight sky and shadows\n* Cool grays and misty whites for the water's reflective surface\n* Subtle hints of gold for the melody's luminous, ethereal quality\n\nAtmosphere and mood:\n\n* Serene yet unsettling, as if nature were unfolding a haunting tale\n* Melancholic, with an undercurrent of longing and mystery\n* Ethereal, like the enigmatic refrains that linger in the mind long after the music has faded."
+        },
+        {
+          "prompt_id": 4,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "Intricate Dreamscapes of Ethereal Echoes\n\nDance within a shimmering haze of A# minor, where twilight skies whisper moderate secrets. The tempo, 82 BPM, unfolds like a delicate petal, each beat pulsating with dark introspection. Dynamic, energetic movements meet serene flow in this balanced composition, guided by the harmonic progression of complex layers. Colorful, vibrant hues infuse the landscape with warmth, while the melody's ascending contour stretches towards the sky, elevating the atmosphere with each note.\n\nIn this realm, ghostly forms dissolve into a sea of muted pastels, punctuated by bursts of vibrant color. The overall mood is one of moderate darkness, shrouded in mystery yet beckoning closer inspection. As the image unfolds, soft contrasts melt away, revealing intricate details that resonate with the emotional essence of the music. Allow yourself to become lost within these ethereal dreamscapes, where each brushstroke captures the elusive spirit of the soundscape."
+        }
+      ]
+    },
+    {
+      "sample_idx": 7,
+      "metadata": {
+        "artist_name": [
+          "\uc0ac\uc774\ud504\ub7ec\uc2a4"
+        ],
+        "album_name": "\uc5c4\ub9c8\uc758 \uc544\uae30\ub97c \uc704\ud55c \uc644\uc804\ud55c \uafc8\uc758 \ud14c\ub77c\ud53c \uc544\uac00\ud398 \uc790\uc7a5\uac00",
+        "track_name": "\uc544\uae30 \uc0dd\ud6c4 1\uac1c\uc6d4\ubd80\ud130 \uc88b\uc740 \uc74c\uc545",
+        "slice_pos": [
+          108,
+          118
+        ]
+      },
+      "musical_features": {
+        "key": "A",
+        "tonality": "minor",
+        "tempo": 110.29411764705883,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "intense"
+      },
+      "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:Am\nC2 D2 E2 F2 G2 |",
+      "prompts": [
+        {
+          "prompt_id": 0,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Darkness shrouds a desolate landscape, with towering mountains looming in the distance. A solitary figure stands atop a rocky outcropping, their silhouette illuminated by a faintly glowing moon. The scene is cloaked in an ominous blue-gray hue, punctuated by flashes of eerie green and purple that dance across the sky.\n\nThe color palette reflects the dark, minor key of the music, with deep blues and blacks juxtaposed against flecks of sickly green and acidic purple. The overall atmosphere is oppressive, evoking a sense of foreboding and unease. The figure's somber demeanor adds to the melancholic mood, as if they are contemplating an unsettling truth.\n\nThe compositional flow is reflected in the swirling patterns that twist and turn across the image, evoking a sense of complex, layered details. The dynamic intensity is conveyed through the bold contrasts of light and dark, with sudden bursts of saturated color punctuating the otherwise muted palette.\n\nThe overall image prompt captures the dramatic, upbeat yet dark mood of the music, inviting the viewer to immerse themselves in a hauntingly beautiful landscape that is both unsettling and alluring."
+        },
+        {
+          "prompt_id": 1,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Intricate, layered composition with flowing, ascending melody line; dynamic, energetic pacing; and a somber, introspective atmosphere.\n\n colors:\nMuted, cool tones of A minor key, such as blues, greens, and purples, with accents of darker, richer hues to convey the darkness in the mood. Subtle contrasts and saturation levels will add depth and complexity to the overall image.\n\nComposition: The scene should feature a solitary figure, possibly lost or journeying through an eerie landscape. A winding path or road cuts through the composition, leading the viewer's gaze deeper into the image. Foggy mountains rise in the distance, casting a mystical, dreamlike quality over the entire scene.\n\nAtmosphere: The overall atmosphere should be somber and introspective, evoking feelings of contemplation and reflection. A sense of unease or foreboding could also be present, emphasized by subtle details such as a lone figure in the distance or an ominous, looming cloud formation.\n\nMood: The mood should convey a mix of darkness and introspection, with undertones of mystery and uncertainty. Think of dark, moody landscapes with pockets of light peeking through the gloom, as if beckoning the viewer to explore further."
+        },
+        {
+          "prompt_id": 2,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "In the dark of night, a dramatic landscape unfolds. The sky is painted with swirling shades of indigo and midnight blue, with streaks of golden light piercing through like rays of hope. A winding path cuts through the scene, leading to a looming fortress perched atop a rocky cliff. The structure's imposing walls and turrets are shrouded in shadows, casting an air of mystery and danger.\n\nIn the foreground, a lone figure emerges from the darkness, their form blurred and ethereal. They move with an otherworldly grace, their footsteps echoing through the stillness like whispers of fate. The color palette is muted, with deep blues and purples dominating, but pops of brightness hint at a hidden world beyond the veil of night.\n\nThe atmosphere is one of intensity and intrigue, as if the scene is building towards some momentous occasion. The mood is both dark and hopeful, capturing the bittersweet essence of life's journey. The overall image exudes an eerie beauty, inviting the viewer to step into this mystical realm and uncover its secrets."
+        },
+        {
+          "prompt_id": 3,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "Image Prompt:\nA dark, moody landscape of twisted, gnarled trees and overgrown vegetation stretches as far as the eye can see, with a menacing storm cloud looming in the distance. The color palette is muted, with deep blues, purples, and greys dominating the scene, punctuated by flashes of brighter, more vibrant colors that burst forth like lightning in the sky. The atmosphere is tense and foreboding, as if danger lurks around every bend, yet there is also a sense of beauty and wonder to the way the shadows dance across the landscape. The overall mood is one of intense drama, with an undercurrent of dark, unsettling emotion that cannot be ignored."
+        },
+        {
+          "prompt_id": 4,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "In the dimly lit room, a shadowy figure stands atop a lofty pedestal, its silhouette cast against a swirling backdrop of A minor chords and soaring melodies. The tempo races at a breakneck pace, the rhythmic pulse pounding like a dark heartbeat as the music surges forward with intense dynamism.\n\nAgainst this sonic tapestry, vibrant hues of blue and purple dance across the canvas, swirling and twisting in time with the melody's undulating contour. These colors ebb and flow like the ocean's waves, each shade imbued with a unique mood and atmosphere that seem to reverberate directly from the music itself.\n\nThe overall effect is both darkly ominous and dramatically uplifting, as if capturing the very essence of the human experience \u2013 full of both light and shadow, joy and sorrow, hope and despair. The resulting image will be a richly layered composition that blends dynamic contrast with intricate details, inviting the viewer to immerse themselves in a world of sound and vision that is at once haunting and beautiful."
+        }
+      ]
+    },
+    {
+      "sample_idx": 8,
+      "metadata": {
+        "artist_name": [
+          "AFK"
+        ],
+        "album_name": "Killionaire",
+        "track_name": "Hear Me Shout",
+        "slice_pos": [
+          35,
+          45
+        ]
+      },
+      "musical_features": {
+        "key": "D#",
+        "tonality": "minor",
+        "tempo": 144.23076923076923,
+        "time_signature": "4/4",
+        "mood": "energetic, dark, dramatic",
+        "melody_contour": "ascending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:144\nK:^Dm\nC2 D2 E2 F2 G2 |",
+      "prompts": [
+        {
+          "prompt_id": 0,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Here is a detailed visual prompt for SDXL image generation based on the provided music representation:\n\n\"A dark and dramatic landscape stretches out before you, with towering mountain peaks piercing the sky in every direction. The terrain is rocky and uneven, with jagged boulders scattered about and a winding path leading up to a mysterious, glowing door. The color palette is muted and cool, with shades of dark blue, purple, and gray dominating the scene. However, subtle hints of warmth can be seen in the golden light that filters through the cracks in the rocky formations, casting long, ethereal shadows across the ground. The atmosphere is one of intense anticipation, as if something momentous is about to occur. As you approach the door, the air grows thick with an otherworldly energy, and you can't help but feel a sense of awe and wonder at the secrets that lie beyond.\""
+        },
+        {
+          "prompt_id": 1,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "Here's a detailed visual prompt suitable for SDXL image generation based on the provided music representation:\n\n\"A dark and dramatic landscape unfolds before us, with towering mountains piercing the sky like jagged teeth. The terrain is shrouded in a thick, eerie fog that casts an ominous glow on everything it touches. The color palette is muted, with deep blues and purples dominating the scene, punctuated by bursts of fiery red and orange that flicker like embers. The overall atmosphere is one of intense foreboding, as if danger lurks around every corner. Shadows stretch and contort, twisting into grotesque shapes that seem to pulse with a life of their own. Amidst the turmoil, a solitary figure stands atop a rocky outcropping, gazing out over the scene with an unnerving intensity. The contrast between the darkness and the fleeting glimpses of light creates an unsettling sense of tension, as if anything could happen at any moment.\""
+        },
+        {
+          "prompt_id": 2,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "\"Darkness Falls\"\n\nIn this hauntingly beautiful image, a shroud of midnight descends upon a desolate landscape, casting long shadows and eerie silhouettes. The sky is ablaze with vibrant hues, as if the very stars themselves are bleeding into the void below. Deep, rich blues and purples mingle with the darkness, creating an atmosphere of mystery and foreboding.\n\nThe composition is fluid and dynamic, with abstract shapes and lines weaving together in a kaleidoscope of motion. The melody contour, ascending with each beat, carries the viewer on a journey through the swirling vortex, while the harmonic progression creates a sense of tension and release. Every element seems to pulse with an otherworldly energy, as if the very fabric of reality is straining against the bounds of time and space.\n\nColor palette: Deep blues, purples, and blacks form the basis of the image, with accents of fiery orange and red that flicker like embers in the darkness. The overall mood is one of dark, introspective drama, with a hint of the surreal and unsettling.\n\nAtmosphere: The scene exudes an atmosphere of foreboding, as if something ominous lurks just beyond the edge of perception. The air is heavy with anticipation, each moment seeming to stretch into an eternity as the darkness closes in. The overall mood is intense and dramatic, with a hint of madness or obsession that threatens to consume all in its path."
+        },
+        {
+          "prompt_id": 3,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "Here is a detailed visual prompt suitable for SDXL image generation based on the provided music representation:\n\n\"A dark and dramatic landscape unfolds before us, with twisted black branches reaching towards the sky like skeletal fingers. The scene is shrouded in a deep blue-gray haze, evoking a sense of mystery and foreboding. In the distance, a castle rises from the mist, its towers and spires looming like ghostly apparitions. The color palette is muted, with touches of deep purple and crimson adding a hint of menace to the already ominous atmosphere. The overall mood is one of intense drama, as if the very fabric of reality is being torn apart by some unseen force. In this world of darkness and intrigue, we are left to ponder the secrets that lie hidden beneath the surface.\""
+        },
+        {
+          "prompt_id": 4,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "In a dark, mystical forest, twisted trees loom like skeletal fingers, their gnarled branches stretching towards an indigo sky. A thick, swirling mist envelops the area, casting an eerie blue-gray hue upon the ground below. The landscape's mood is one of foreboding and unease, as if a malevolent force lurks just beyond the edge of perception.\n\nThe color palette is rooted in dark, cool tones, with splashes of vibrant reds and oranges that pierce the gloom like blooming flames. These bold hues evoke the intensity of the music's dynamic progression, adding a jolt of energy to the otherwise somber atmosphere. The overall effect is one of tension and intrigue, as if the viewer is being drawn into a realm where darkness reigns supreme.\n\nThe image should convey a sense of movement and flow, reflecting the melody's contour and the tempo's unrelenting drive. Distinct areas of focus within the composition should create the impression of shifting planes or dimensions, as if the viewer is navigating a labyrinthine dreamscape. The harmonic progression can be suggested through the use of contrasting colors, with rich, textured details adding depth and complexity to the overall design."
+        }
+      ]
+    },
+    {
+      "sample_idx": 9,
+      "metadata": {
+        "artist_name": [
+          "RAC"
+        ],
+        "album_name": "I Still Wanna Know (feat. Rivers Cuomo) (Remixes)",
+        "track_name": "I Still Wanna Know (feat. Rivers Cuomo) (Teztudo Remix)",
+        "slice_pos": [
+          41,
+          51
+        ]
+      },
+      "musical_features": {
+        "key": "A#",
+        "tonality": "minor",
+        "tempo": 110.29411764705883,
+        "time_signature": "4/4",
+        "mood": "upbeat, dark, dramatic",
+        "melody_contour": "descending",
+        "harmonic_progression": "complex_progression",
+        "dynamic_intensity": "very_intense"
+      },
+      "abc_notation": "X:1\nT:Generated Song\nM:4/4\nL:1/8\nQ:110\nK:^Am\nG2 F2 E2 D2 C2 |",
+      "prompts": [
+        {
+          "prompt_id": 0,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "\"Ethereal Dreamscape in A# Minor\"\n\nIn this vivid image prompt, a dreamy landscape unfolds with an otherworldly quality. The tempo-driven motion is fluid and dynamic, with rapid, sweeping brushstrokes that convey the fast pace. Soft, muted colors predominate, with subtle shifts in hue that evoke a sense of calm and introspection.\n\nAgainst this backdrop, a delicate melody weaves a web of intricate detail, its contours rising and falling in a harmonious flow. The key's minor tonality imbues the scene with a cool, dark essence, while the complex progression adds layer upon layer of rich, vibrant color.\n\nAs the image unfolds, contrast and saturation build to an intense, almost overwhelming level. But just as the emotional intensity reaches its peak, it begins to subside, leaving a soft, serene atmosphere in its wake. Throughout, the overall mood remains one of upbeat drama, with each element working together to create a visual experience that is both dark and dreamy, yet ultimately uplifting.\n\nColor palette suggestions: Cool blues and purples, accented by soft greens and golds.\n\nAtmosphere/mood: Ethereal, introspective, dramatic, upbeat."
+        },
+        {
+          "prompt_id": 1,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "In the dimly lit underground, a world of darkness reigns. A# minor, the key signature, echoes through the labyrinthine corridors, casting an ominous spell upon the shadows. The tempo, 110 BPM, quickens the pulse with an unsettling intensity.\n\nSkeletal trees stretch towards the sky, their bony branches creaking in the wind. The melody contour descends, a funeral march of macabre elegance. Harmonic progressions build upon each other, layering secrets within the darkness. Dynamic intensity blazes with fierce brilliance, illuminating the gloom.\n\nIn this foreboding landscape, colors are muted and cool, reflecting the somber mood. A palette of dark blues, greys, and blacks creates an atmosphere of introspection and melancholy. Soft, delicate lines etch the silhouettes of ghostly apparitions, while bold, striking shapes embellish the shadows with a sense of drama.\n\nThe visual composition unfolds like a macabre ballet, with each element in perfect harmony. The flow is fluid and dynamic, as if governed by an otherworldly force. In this realm of darkness, beauty and horror coexist, inviting the observer to immerse themselves in the twilight world.\n\nIn 150-300 words, generate a detailed, vivid image prompt suitable for SDXL image generation."
+        },
+        {
+          "prompt_id": 2,
+          "mode": "convergent",
+          "temperature": 0.4,
+          "visual_prompt": "In the midst of a dark, eerie forest, a figure emerges from the shadows. The music's intense dynamic intensity is reflected in the figure's turbulent movements, their arms and legs stretched out as they stumble through the underbrush. The tempo maps to the figure's rapid, unpredictable movements, with a mix of fast and slow segments that add to the sense of tension and drama.\n\nThe key of A# minor gives the image a melancholic, introspective quality, with a palette of cool, dark colors that seem to absorb and amplify the figure's emotions. The harmonic progression, with its complex chord progressions, adds depth and richness to the composition, creating an atmosphere of mystery and foreboding.\n\nAs the figure moves through the forest, their movements are punctuated by flashes of bright, warm light that illuminate the surrounding trees. These moments of respite from the darkness serve only to heighten the sense of unease, as if the light is struggling to break through the dense foliage. The overall mood is one of upbeat drama, with a hint of menace lurking just beneath the surface.\n\nIn this image prompt, the visual style is characterized by dark, muted colors, with bursts of brightness that add to the tension and emotional depth of the composition. The figure's turbulent movements are captured in a way that emphasizes their struggle against the oppressive atmosphere of the forest, while the lighting adds an element of mystery and uncertainty."
+        },
+        {
+          "prompt_id": 3,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "Here is a detailed visual prompt suitable for SDXL image generation based on the provided music representation:\n\n\"A dark and dramatic landscape, with a complex progression of shadows and hues that evoke a sense of mystery and intrigue. The sky is shrouded in an A# minor haze, with visible stars twinkling through the clouds like diamonds in a velvet curtain. The ground is covered in a lush carpet of deep green foliage, with glowing embers from a recent sunset scattered across the terrain. The atmosphere is tense and unpredictable, as if waiting for something momentous to occur. Color palette: cool blues, dark greens, and subtle warm tones.\""
+        },
+        {
+          "prompt_id": 4,
+          "mode": "divergent",
+          "temperature": 0.8,
+          "visual_prompt": "\"A dark, dramatic landscape unfolds before the viewer's eyes, with a rich, complex progression of colors that ebb and flow like the melody of the song. Shades of A# minor creep in, casting an introspective mood over the scene. The tempo is fast and dynamic, conveyed through quick, fluid brushstrokes that blur the edges of forms and create a sense of motion.\n\nIn the foreground, a lone figure stands atop a jagged mountain, their backlit form silhouetted against a swirling vortex of colors that seem to pull them into an otherworldly realm. The atmosphere is tense, as if holding its breath in anticipation of some great revelation.\n\nAs the eye moves across the canvas, the colors deepen and darken, becoming more saturated and intense, until the entire landscape is bathed in a warm, golden light that seems to herald the promise of resolution. The overall mood is one of upbeat drama, as if the very fabric of reality were teetering on the edge of transformation.\""
+        }
+      ]
+    }
+  ]
+}
